@@ -1,0 +1,10 @@
+ranks:
+  default:
+    prefix: "&7[Default]"
+    permissions:
+      - "snitchrank.basic"
+  admin:
+    prefix: "&c[Admin]"
+    permissions:
+      - "snitchrank.admin"
+      - "snitchrank.basic"
