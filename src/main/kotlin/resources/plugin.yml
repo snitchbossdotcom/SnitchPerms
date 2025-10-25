@@ -1,0 +1,11 @@
+name: SnitchRank
+version: ${project.version}
+main: com.example.snitchrank.SnitchRank
+api-version: 1.20
+commands:
+  rank:
+    description: Manage player ranks
+    usage: /<command> <set|remove|list> [player] [rank]
+  permission:
+    description: Manage player permissions
+    usage: /<command> <add|remove|list> [player] [permission]
